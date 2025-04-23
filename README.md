@@ -6,7 +6,7 @@ This is a desktop-based Face Recognition Attendance System built using Python an
 
 ## ⚙️ Requirements
 
-- **Python Version:** 3.10.11
+- **Python Version:** 3.10.13
 - All required libraries are listed in `requirements.txt`.
 
 ---
