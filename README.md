@@ -72,6 +72,7 @@ Face-Attendance-System/
 ## 📌 Notes
 
 - Keep the `images/` folder and the `.dat` file in the same directory where the project is unpacked.
+- for login -  User Namev `admin@123` and the password is `admin` 
 - Attendance records are saved in CSV format with student details and timestamps.
 - Blink detection ensures liveness before marking attendance.
 
@@ -88,6 +89,6 @@ Face-Attendance-System/
 
 ## 👤 Developed by
 
-- [Arnav Pundir]
+- Arnav Pundir
 
 ---
