@@ -1,0 +1,91 @@
+
+# Face Recognition Based Attendance System
+
+This project is a desktop-based Face Recognition Attendance System built with Python and PyQt5. It leverages facial recognition to mark attendance and ensures authenticity using blink detection.
+
+---
+
+## Creator
+**Developed by:** *Arnav Pundir*
+
+---
+
+## Features
+
+- 🧑‍💼 **Admin Panel**: Add, remove, and manage student data.
+- 🎥 **Live Webcam Feed**: Real-time facial detection and recognition.
+- 👁 **Blink Detection**: Prevents spoofing with blink verification using dlib.
+- 🖼 **Student Info Display**: Shows recognized student name and photo.
+- 📅 **Attendance Logging**: Marks and logs attendance in a CSV file.
+- 🔁 **Duplicate Prevention**: Ensures one entry per student per session.
+- 📦 **Report Export**: Export daily attendance reports in CSV format.
+
+---
+
+## Installation
+
+### Prerequisites
+- Python 3.7+
+- Webcam
+
+### Required Packages
+Install dependencies using:
+```bash
+pip install -r requirements.txt
+```
+
+### `requirements.txt` includes:
+```txt
+opencv-python
+dlib
+imutils
+numpy
+pandas
+pyqt5
+```
+
+---
+
+## How to Use
+
+1. **Run the Application**:
+   ```bash
+   python main.py
+   ```
+
+2. **Admin Functions**:
+   - Add or edit student details.
+   - Load student images to train the recognizer.
+
+3. **Attendance Mode**:
+   - Start webcam.
+   - Student faces are matched.
+   - Blink detection ensures presence.
+   - Attendance is marked in a CSV file.
+
+---
+
+## Folder Structure
+```
+Face_Recognition_Attendance/
+├── main.py                    # GUI and control logic
+├── recognizer.py              # Face recognition logic
+├── blink_detector.py          # Blink detection functionality
+├── admin_panel.py             # Admin management UI
+├── attendance.csv             # Output attendance file
+├── data/                      # Stores student images and encodings
+├── README.md
+├── requirements.txt
+```
+
+---
+
+## License
+MIT License
+
+---
+
+## Acknowledgements
+- [OpenCV](https://opencv.org/)
+- [dlib](http://dlib.net/)
+- [PyQt5](https://riverbankcomputing.com/software/pyqt/)
