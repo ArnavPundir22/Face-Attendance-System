@@ -9,6 +9,14 @@ from PyQt5.QtWidgets import (
 from PyQt5.QtGui import QPixmap, QImage
 from PyQt5.QtCore import Qt, QTimer
 
+# ================================================================
+# Project: Face Recognition Based Attendance System
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
+
 
 # os.environ["QT_QPA_PLATFORM"] = "wayland"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
