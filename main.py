@@ -399,7 +399,13 @@ class AttendanceSystem(QWidget):
                                     (x1, y1 - 40), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
                         cv2.putText(img_rgb, f"ID: {student_id}", (x1, y1 - 10),
                                     cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 0), 2)
-
+# ================================================================
+# Project: Face Recognition Based Attendance System
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
                         self.status_label.setText("👁️ Please blink to verify your identity")
                         self.blink_label.setText(f"🔁 Blinks: {student_blink['blinks']}/{self.REQUIRED_BLINKS}")
 
