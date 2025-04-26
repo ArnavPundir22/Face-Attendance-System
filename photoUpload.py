@@ -91,7 +91,13 @@ class UploadWindow(QWidget):
             self.mobile_input, self.gmail_input
         ]:
             form_layout.addWidget(widget)
-
+# ================================================================
+# Project: Face Recognition Based Attendance System
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
         self.choose_btn = self.create_button("📁  Choose Photo", "#7A5FFF")
         self.choose_btn.clicked.connect(self.choose_photo)
         form_layout.addWidget(self.choose_btn)
