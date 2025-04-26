@@ -10,6 +10,7 @@ from PyQt5.QtWidgets import (
     QStackedLayout, QFrame, QGroupBox, QLineEdit, QFormLayout,  QMainWindow, QPushButton, QVBoxLayout,
     QHBoxLayout, QScrollArea,  QSizePolicy, QDialog
 )
+
 from PyQt5.QtGui import QFont
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QFileDialog, QMessageBox
@@ -76,7 +77,13 @@ class RegisterAdminDialog(QDialog):
         layout.addWidget(register_btn)
 
         self.setLayout(layout)
-
+# ================================================================
+# Project: Face Recognition Based Attendance System
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
     def register_admin(self):
         name = self.name_input.text().strip()
         gmail = self.gmail_input.text().strip()
