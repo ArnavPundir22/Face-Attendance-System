@@ -107,7 +107,13 @@ class HomePage(QWidget):
         main_layout.addLayout(button_layout)
 
         main_layout.addSpacerItem(QSpacerItem(20, 30))
-
+# ================================================================
+# Project: Face Recognition Based Attendance System
+# Author: Arnav Pundir
+# Year: 2025
+# License: Custom Proprietary License - All Rights Reserved
+# Unauthorized use, copying, or distribution is strictly prohibited.
+# ================================================================
         # Exit Button
         exit_layout = QHBoxLayout()
         exit_layout.setAlignment(Qt.AlignCenter)
