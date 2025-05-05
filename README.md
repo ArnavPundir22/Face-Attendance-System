@@ -90,5 +90,5 @@ Face-Attendance-System/
 ## 👤 Developed by
 
 - Arnav Pundir
-
+In collaboration with *Atharv Kumar* and *Aman Bhatti*
 ---
